@@ -8,16 +8,22 @@ Most teams shipping LLM features have no way to measure if their responses are a
 
 ## Demo
 
+## Demo
+
+### Full Dashboard
 ![Full Dashboard](screenshots/Full-Dashboard.PNG)
 
+### Grounded Answer with Sources
 ![Grounded Answer](screenshots/Grounded-Answer.PNG)
 
+### Cache Hit at Zero Cost
 ![Cache Hit](screenshots/Cache-hit.PNG)
 
+### Complex Query Routed to 70b Model
 ![70b Model Detail](screenshots/80b-model-Detail-Answer.PNG)
 
+### Ungrounded Answer Warning
 ![Ungrounded Warning](screenshots/Warning-check.PNG)
-
 ---
 
 ## How It Works
