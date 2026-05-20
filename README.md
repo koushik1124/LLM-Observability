@@ -80,7 +80,18 @@ SQLite logs every request with cost, latency, model used, cache hit status, and 
 
 ## Tech Stack
 
-FastAPI handles the backend API layer. Groq provides access to Llama models with low latency inference. ChromaDB stores embeddings locally with persistent disk storage. sentence-transformers runs the all-MiniLM-L6-v2 embedding model locally at zero API cost. scikit-learn handles cosine similarity calculations. SQLite stores all telemetry. React with Recharts powers the frontend dashboard.
+| Component | Technology | Purpose |
+|---|---|---|
+| API Layer | FastAPI + Uvicorn | Request handling, routing, validation |
+| LLM Provider | Groq API | Low latency inference for Llama models |
+| Fast Model | llama-3.1-8b-instant | Simple queries, cost efficient |
+| Smart Model | llama-3.3-70b-versatile | Complex queries, higher accuracy |
+| Vector Store | ChromaDB | Local persistent embedding storage |
+| Embeddings | all-MiniLM-L6-v2 | Query and document embedding |
+| Eval Scoring | scikit-learn cosine similarity | Relevance and faithfulness scoring |
+| Database | SQLite | Telemetry, cost, and quality logging |
+| Frontend | React + Vite | Dashboard UI |
+| Charts | Recharts | Quality and cost visualizations |
 
 ---
 
