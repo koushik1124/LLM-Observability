@@ -1,0 +1,12 @@
+.env
+cache_store/
+rag_store/
+observability.db
+env/
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+frontend/.vite/
+.vscode
+.git
