@@ -8,15 +8,15 @@ Most teams shipping LLM features have no way to measure if their responses are a
 
 ## Demo
 
-![Full Dashboard](screenshots/Full-Dashboard.png)
+![Full Dashboard](screenshots/Full-Dashboard.PNG)
 
-![Grounded Answer](screenshots/Grounded-Answer.png)
+![Grounded Answer](screenshots/Grounded-Answer.PNG)
 
-![Cache Hit](screenshots/Cache-hit.png)
+![Cache Hit](screenshots/Cache-hit.PNG)
 
-![70b Model Detail](screenshots/80b-model-Detail-Answer.png)
+![70b Model Detail](screenshots/80b-model-Detail-Answer.PNG)
 
-![Ungrounded Warning](screenshots/Warning-check.png)
+![Ungrounded Warning](screenshots/Warning-check.PNG)
 
 ---
 
