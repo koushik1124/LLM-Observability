@@ -8,8 +8,6 @@ Most teams shipping LLM features have no way to measure if their responses are a
 
 ## Demo
 
-## Demo
-
 ### Full Dashboard
 ![Full Dashboard](screenshots/Full-Dashboard.PNG)
 
